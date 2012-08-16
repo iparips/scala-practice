@@ -8,6 +8,27 @@ object Main extends App {
     println(new Rational(2, 3) + 2)
     println(2 + new Rational(2, 3))
 
+
+    passingMethodsAsParams
+
+
+  }
+
+
+
+}
+
+class ClassParameterisedWithMethodType[(String) => Int] {
+
+  def passingMethodsAsParams {
+
+    def method(f: (String) => Int) = {
+      printf("method4: " + f("4"))
+    }
+
+    method( (x) => x.toInt )
+
   }
 
 }
+
