@@ -1,3 +1,5 @@
+package custommatcher
+
 import org.scalatest.{Spec, BeforeAndAfterEach}
 import org.scalatest.matchers._
 

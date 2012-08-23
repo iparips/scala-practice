@@ -1,3 +1,5 @@
+package custommatcher
+
 import org.scalatest.matchers.{MatchResult, Matcher}
 
 trait MyCustomMatcher {

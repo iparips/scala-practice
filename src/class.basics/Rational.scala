@@ -1,3 +1,5 @@
+package classbasics
+
 class Rational(n: Int, d: Int) {
 
   require(d != 0)
@@ -6,7 +8,7 @@ class Rational(n: Int, d: Int) {
   val denominator = d
 
   // Constructor overload
-  def this(n:Int) = this(n, 1)
+  def this(n: Int) = this(n, 1)
 
   def +(that: Rational): Rational =
     new Rational(
